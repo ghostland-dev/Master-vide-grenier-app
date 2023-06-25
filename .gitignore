@@ -1,0 +1,9 @@
+# vendor
+.idea
+composer.lock
+# node_modules
+# ./App/Config.php
+# ./Dockerfile
+# ./docker-compose.yml
+
+# App/Config.php

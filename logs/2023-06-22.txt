@@ -1,0 +1,234 @@
+[22-Jun-2023 07:50:17 UTC] Uncaught exception: 'ParseError' with message 'syntax error, unexpected variable "$article"'
+Stack trace: #0 C:\wamp64\www\videgreniercesisim\vendor\composer\ClassLoader.php(433): Composer\Autoload\{closure}('C:\\wamp64\\www\\v...')
+#1 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Controllers...')
+#2 C:\wamp64\www\videgreniercesisim\Core\Router.php(114): class_exists('App\\Controllers...')
+#3 C:\wamp64\www\videgreniercesisim\public\index.php(55): Core\Router->dispatch('api/products')
+#4 {main}
+Thrown in 'C:\wamp64\www\videgreniercesisim\App\Controllers\Api.php' on line 97
+[22-Jun-2023 07:50:21 UTC] Uncaught exception: 'ParseError' with message 'syntax error, unexpected variable "$article"'
+Stack trace: #0 C:\wamp64\www\videgreniercesisim\vendor\composer\ClassLoader.php(433): Composer\Autoload\{closure}('C:\\wamp64\\www\\v...')
+#1 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Controllers...')
+#2 C:\wamp64\www\videgreniercesisim\Core\Router.php(114): class_exists('App\\Controllers...')
+#3 C:\wamp64\www\videgreniercesisim\public\index.php(55): Core\Router->dispatch('api/products')
+#4 {main}
+Thrown in 'C:\wamp64\www\videgreniercesisim\App\Controllers\Api.php' on line 97
+[22-Jun-2023 07:50:26 UTC] Uncaught exception: 'ParseError' with message 'syntax error, unexpected variable "$article"'
+Stack trace: #0 C:\wamp64\www\videgreniercesisim\vendor\composer\ClassLoader.php(433): Composer\Autoload\{closure}('C:\\wamp64\\www\\v...')
+#1 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Controllers...')
+#2 C:\wamp64\www\videgreniercesisim\Core\Router.php(114): class_exists('App\\Controllers...')
+#3 C:\wamp64\www\videgreniercesisim\public\index.php(55): Core\Router->dispatch('api/products')
+#4 {main}
+Thrown in 'C:\wamp64\www\videgreniercesisim\App\Controllers\Api.php' on line 97
+[22-Jun-2023 07:50:28 UTC] Uncaught exception: 'ParseError' with message 'syntax error, unexpected variable "$article"'
+Stack trace: #0 C:\wamp64\www\videgreniercesisim\vendor\composer\ClassLoader.php(433): Composer\Autoload\{closure}('C:\\wamp64\\www\\v...')
+#1 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Controllers...')
+#2 C:\wamp64\www\videgreniercesisim\Core\Router.php(114): class_exists('App\\Controllers...')
+#3 C:\wamp64\www\videgreniercesisim\public\index.php(55): Core\Router->dispatch('api/products')
+#4 {main}
+Thrown in 'C:\wamp64\www\videgreniercesisim\App\Controllers\Api.php' on line 97
+[22-Jun-2023 07:50:41 UTC] Uncaught exception: 'ParseError' with message 'syntax error, unexpected variable "$article"'
+Stack trace: #0 C:\wamp64\www\videgreniercesisim\vendor\composer\ClassLoader.php(433): Composer\Autoload\{closure}('C:\\wamp64\\www\\v...')
+#1 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Controllers...')
+#2 C:\wamp64\www\videgreniercesisim\Core\Router.php(114): class_exists('App\\Controllers...')
+#3 C:\wamp64\www\videgreniercesisim\public\index.php(55): Core\Router->dispatch('api/products')
+#4 {main}
+Thrown in 'C:\wamp64\www\videgreniercesisim\App\Controllers\Api.php' on line 97
+[22-Jun-2023 07:50:58 UTC] Uncaught exception: 'ParseError' with message 'syntax error, unexpected variable "$article"'
+Stack trace: #0 C:\wamp64\www\videgreniercesisim\vendor\composer\ClassLoader.php(433): Composer\Autoload\{closure}('C:\\wamp64\\www\\v...')
+#1 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Controllers...')
+#2 C:\wamp64\www\videgreniercesisim\Core\Router.php(114): class_exists('App\\Controllers...')
+#3 C:\wamp64\www\videgreniercesisim\public\index.php(55): Core\Router->dispatch('api/proxwcxwcxw')
+#4 {main}
+Thrown in 'C:\wamp64\www\videgreniercesisim\App\Controllers\Api.php' on line 97
+[22-Jun-2023 07:51:27 UTC] Uncaught exception: 'ParseError' with message 'syntax error, unexpected variable "$article"'
+Stack trace: #0 C:\wamp64\www\videgreniercesisim\vendor\composer\ClassLoader.php(433): Composer\Autoload\{closure}('C:\\wamp64\\www\\v...')
+#1 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Controllers...')
+#2 C:\wamp64\www\videgreniercesisim\Core\Router.php(114): class_exists('App\\Controllers...')
+#3 C:\wamp64\www\videgreniercesisim\public\index.php(55): Core\Router->dispatch('api/products')
+#4 {main}
+Thrown in 'C:\wamp64\www\videgreniercesisim\App\Controllers\Api.php' on line 97
+[22-Jun-2023 07:51:31 UTC] Uncaught exception: 'ParseError' with message 'syntax error, unexpected variable "$article"'
+Stack trace: #0 C:\wamp64\www\videgreniercesisim\vendor\composer\ClassLoader.php(433): Composer\Autoload\{closure}('C:\\wamp64\\www\\v...')
+#1 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Controllers...')
+#2 C:\wamp64\www\videgreniercesisim\Core\Router.php(114): class_exists('App\\Controllers...')
+#3 C:\wamp64\www\videgreniercesisim\public\index.php(55): Core\Router->dispatch('api/products')
+#4 {main}
+Thrown in 'C:\wamp64\www\videgreniercesisim\App\Controllers\Api.php' on line 97
+[22-Jun-2023 08:16:13 UTC] Uncaught exception: 'ArgumentCountError' with message 'Too few arguments to function App\Controllers\Api::productAction(), 0 passed and exactly 1 expected'
+Stack trace: #0 [internal function]: App\Controllers\Api->productAction()
+#1 C:\wamp64\www\videgreniercesisim\Core\Controller.php(48): call_user_func_array(Array, Array)
+#2 C:\wamp64\www\videgreniercesisim\Core\Router.php(126): Core\Controller->__call('product', Array)
+#3 C:\wamp64\www\videgreniercesisim\public\index.php(57): Core\Router->dispatch('api/product/1')
+#4 {main}
+Thrown in 'C:\wamp64\www\videgreniercesisim\App\Controllers\Api.php' on line 123
+[22-Jun-2023 11:23:07 UTC] Uncaught exception: 'Error' with message 'Call to undefined method App\Config::getDbHost()'
+Stack trace: #0 C:\wamp64\www\videgreniercesisim\App\Models\Articles.php(39): Core\Model::getDB()
+#1 C:\wamp64\www\videgreniercesisim\App\Controllers\Api.php(27): App\Models\Articles::getAll('')
+#2 [internal function]: App\Controllers\Api->productsallAction()
+#3 C:\wamp64\www\videgreniercesisim\Core\Controller.php(48): call_user_func_array(Array, Array)
+#4 C:\wamp64\www\videgreniercesisim\Core\Router.php(126): Core\Controller->__call('productsall', Array)
+#5 C:\wamp64\www\videgreniercesisim\public\index.php(74): Core\Router->dispatch('api/products')
+#6 {main}
+Thrown in 'C:\wamp64\www\videgreniercesisim\Core\Model.php' on line 26
+[22-Jun-2023 11:23:12 UTC] Uncaught exception: 'Error' with message 'Call to undefined method App\Config::getDbHost()'
+Stack trace: #0 C:\wamp64\www\videgreniercesisim\App\Models\Articles.php(39): Core\Model::getDB()
+#1 C:\wamp64\www\videgreniercesisim\App\Controllers\Api.php(27): App\Models\Articles::getAll('')
+#2 [internal function]: App\Controllers\Api->productsallAction()
+#3 C:\wamp64\www\videgreniercesisim\Core\Controller.php(48): call_user_func_array(Array, Array)
+#4 C:\wamp64\www\videgreniercesisim\Core\Router.php(126): Core\Controller->__call('productsall', Array)
+#5 C:\wamp64\www\videgreniercesisim\public\index.php(74): Core\Router->dispatch('api/products')
+#6 {main}
+Thrown in 'C:\wamp64\www\videgreniercesisim\Core\Model.php' on line 26
+[22-Jun-2023 11:23:45 UTC] Uncaught exception: 'Error' with message 'Call to undefined method App\Config::getDbHost()'
+Stack trace: #0 C:\wamp64\www\videgreniercesisim\App\Models\Articles.php(39): Core\Model::getDB()
+#1 C:\wamp64\www\videgreniercesisim\App\Controllers\Api.php(27): App\Models\Articles::getAll('')
+#2 [internal function]: App\Controllers\Api->productsallAction()
+#3 C:\wamp64\www\videgreniercesisim\Core\Controller.php(48): call_user_func_array(Array, Array)
+#4 C:\wamp64\www\videgreniercesisim\Core\Router.php(126): Core\Controller->__call('productsall', Array)
+#5 C:\wamp64\www\videgreniercesisim\public\index.php(74): Core\Router->dispatch('api/products')
+#6 {main}
+Thrown in 'C:\wamp64\www\videgreniercesisim\Core\Model.php' on line 26
+[22-Jun-2023 11:23:59 UTC] Uncaught exception: 'Error' with message 'Call to undefined method App\Config::getDbHost()'
+Stack trace: #0 C:\wamp64\www\videgreniercesisim\App\Models\Articles.php(39): Core\Model::getDB()
+#1 C:\wamp64\www\videgreniercesisim\App\Controllers\Api.php(27): App\Models\Articles::getAll('')
+#2 [internal function]: App\Controllers\Api->productsallAction()
+#3 C:\wamp64\www\videgreniercesisim\Core\Controller.php(48): call_user_func_array(Array, Array)
+#4 C:\wamp64\www\videgreniercesisim\Core\Router.php(126): Core\Controller->__call('productsall', Array)
+#5 C:\wamp64\www\videgreniercesisim\public\index.php(74): Core\Router->dispatch('api/products')
+#6 {main}
+Thrown in 'C:\wamp64\www\videgreniercesisim\Core\Model.php' on line 26
+[22-Jun-2023 11:24:07 UTC] Uncaught exception: 'Error' with message 'Call to undefined method App\Config::getDbHost()'
+Stack trace: #0 C:\wamp64\www\videgreniercesisim\App\Models\Articles.php(39): Core\Model::getDB()
+#1 C:\wamp64\www\videgreniercesisim\App\Controllers\Api.php(27): App\Models\Articles::getAll('')
+#2 [internal function]: App\Controllers\Api->productsallAction()
+#3 C:\wamp64\www\videgreniercesisim\Core\Controller.php(48): call_user_func_array(Array, Array)
+#4 C:\wamp64\www\videgreniercesisim\Core\Router.php(126): Core\Controller->__call('productsall', Array)
+#5 C:\wamp64\www\videgreniercesisim\public\index.php(74): Core\Router->dispatch('api/products')
+#6 {main}
+Thrown in 'C:\wamp64\www\videgreniercesisim\Core\Model.php' on line 26
+[22-Jun-2023 11:25:42 UTC] Uncaught exception: 'Error' with message 'Call to undefined method App\Config::getDbHost()'
+Stack trace: #0 C:\wamp64\www\videgreniercesisim\App\Models\Articles.php(39): Core\Model::getDB()
+#1 C:\wamp64\www\videgreniercesisim\App\Controllers\Api.php(27): App\Models\Articles::getAll('')
+#2 [internal function]: App\Controllers\Api->productsallAction()
+#3 C:\wamp64\www\videgreniercesisim\Core\Controller.php(48): call_user_func_array(Array, Array)
+#4 C:\wamp64\www\videgreniercesisim\Core\Router.php(126): Core\Controller->__call('productsall', Array)
+#5 C:\wamp64\www\videgreniercesisim\public\index.php(74): Core\Router->dispatch('api/products')
+#6 {main}
+Thrown in 'C:\wamp64\www\videgreniercesisim\Core\Model.php' on line 26
+[22-Jun-2023 11:27:25 UTC] Uncaught exception: 'Error' with message 'Call to undefined method App\Config::getDbHost()'
+Stack trace: #0 C:\wamp64\www\videgreniercesisim\App\Models\Articles.php(39): Core\Model::getDB()
+#1 C:\wamp64\www\videgreniercesisim\App\Controllers\Api.php(27): App\Models\Articles::getAll('')
+#2 [internal function]: App\Controllers\Api->productsallAction()
+#3 C:\wamp64\www\videgreniercesisim\Core\Controller.php(48): call_user_func_array(Array, Array)
+#4 C:\wamp64\www\videgreniercesisim\Core\Router.php(126): Core\Controller->__call('productsall', Array)
+#5 C:\wamp64\www\videgreniercesisim\public\index.php(74): Core\Router->dispatch('api/products')
+#6 {main}
+Thrown in 'C:\wamp64\www\videgreniercesisim\Core\Model.php' on line 26
+[22-Jun-2023 11:27:39 UTC] Uncaught exception: 'Error' with message 'Call to undefined method App\Config::getDbHost()'
+Stack trace: #0 C:\wamp64\www\videgreniercesisim\App\Models\Articles.php(67): Core\Model::getDB()
+#1 C:\wamp64\www\videgreniercesisim\App\Controllers\Api.php(55): App\Models\Articles::getOne('1')
+#2 [internal function]: App\Controllers\Api->ProductAction()
+#3 C:\wamp64\www\videgreniercesisim\Core\Controller.php(48): call_user_func_array(Array, Array)
+#4 C:\wamp64\www\videgreniercesisim\Core\Router.php(126): Core\Controller->__call('product', Array)
+#5 C:\wamp64\www\videgreniercesisim\public\index.php(74): Core\Router->dispatch('api/product/1')
+#6 {main}
+Thrown in 'C:\wamp64\www\videgreniercesisim\Core\Model.php' on line 26
+[22-Jun-2023 11:27:52 UTC] Uncaught exception: 'Error' with message 'Call to undefined method App\Config::getDbHost()'
+Stack trace: #0 C:\wamp64\www\videgreniercesisim\App\Models\Articles.php(39): Core\Model::getDB()
+#1 C:\wamp64\www\videgreniercesisim\App\Controllers\Api.php(27): App\Models\Articles::getAll('')
+#2 [internal function]: App\Controllers\Api->productsallAction()
+#3 C:\wamp64\www\videgreniercesisim\Core\Controller.php(48): call_user_func_array(Array, Array)
+#4 C:\wamp64\www\videgreniercesisim\Core\Router.php(126): Core\Controller->__call('productsall', Array)
+#5 C:\wamp64\www\videgreniercesisim\public\index.php(74): Core\Router->dispatch('api/products')
+#6 {main}
+Thrown in 'C:\wamp64\www\videgreniercesisim\Core\Model.php' on line 26
+[22-Jun-2023 11:29:10 UTC] Uncaught exception: 'Error' with message 'Call to undefined method App\Config::getDbHost()'
+Stack trace: #0 C:\wamp64\www\videgreniercesisim\App\Models\Articles.php(39): Core\Model::getDB()
+#1 C:\wamp64\www\videgreniercesisim\App\Controllers\Api.php(27): App\Models\Articles::getAll('')
+#2 [internal function]: App\Controllers\Api->productsallAction()
+#3 C:\wamp64\www\videgreniercesisim\Core\Controller.php(48): call_user_func_array(Array, Array)
+#4 C:\wamp64\www\videgreniercesisim\Core\Router.php(126): Core\Controller->__call('productsall', Array)
+#5 C:\wamp64\www\videgreniercesisim\public\index.php(74): Core\Router->dispatch('api/products')
+#6 {main}
+Thrown in 'C:\wamp64\www\videgreniercesisim\Core\Model.php' on line 26
+[22-Jun-2023 11:29:13 UTC] Uncaught exception: 'Error' with message 'Call to undefined method App\Config::getDbHost()'
+Stack trace: #0 C:\wamp64\www\videgreniercesisim\App\Models\Articles.php(39): Core\Model::getDB()
+#1 C:\wamp64\www\videgreniercesisim\App\Controllers\Api.php(27): App\Models\Articles::getAll('')
+#2 [internal function]: App\Controllers\Api->productsallAction()
+#3 C:\wamp64\www\videgreniercesisim\Core\Controller.php(48): call_user_func_array(Array, Array)
+#4 C:\wamp64\www\videgreniercesisim\Core\Router.php(126): Core\Controller->__call('productsall', Array)
+#5 C:\wamp64\www\videgreniercesisim\public\index.php(74): Core\Router->dispatch('api/products')
+#6 {main}
+Thrown in 'C:\wamp64\www\videgreniercesisim\Core\Model.php' on line 26
+[22-Jun-2023 11:29:44 UTC] Uncaught exception: 'Error' with message 'Call to undefined method App\Config::getDbHost()'
+Stack trace: #0 C:\wamp64\www\videgreniercesisim\App\Models\Articles.php(39): Core\Model::getDB()
+#1 C:\wamp64\www\videgreniercesisim\App\Controllers\Api.php(27): App\Models\Articles::getAll('')
+#2 [internal function]: App\Controllers\Api->productsallAction()
+#3 C:\wamp64\www\videgreniercesisim\Core\Controller.php(48): call_user_func_array(Array, Array)
+#4 C:\wamp64\www\videgreniercesisim\Core\Router.php(126): Core\Controller->__call('productsall', Array)
+#5 C:\wamp64\www\videgreniercesisim\public\index.php(74): Core\Router->dispatch('api/products')
+#6 {main}
+Thrown in 'C:\wamp64\www\videgreniercesisim\Core\Model.php' on line 26
+[22-Jun-2023 11:29:46 UTC] Uncaught exception: 'Error' with message 'Call to undefined method App\Config::getDbHost()'
+Stack trace: #0 C:\wamp64\www\videgreniercesisim\App\Models\Articles.php(39): Core\Model::getDB()
+#1 C:\wamp64\www\videgreniercesisim\App\Controllers\Api.php(27): App\Models\Articles::getAll('')
+#2 [internal function]: App\Controllers\Api->productsallAction()
+#3 C:\wamp64\www\videgreniercesisim\Core\Controller.php(48): call_user_func_array(Array, Array)
+#4 C:\wamp64\www\videgreniercesisim\Core\Router.php(126): Core\Controller->__call('productsall', Array)
+#5 C:\wamp64\www\videgreniercesisim\public\index.php(74): Core\Router->dispatch('api/products')
+#6 {main}
+Thrown in 'C:\wamp64\www\videgreniercesisim\Core\Model.php' on line 26
+[22-Jun-2023 11:29:58 UTC] Uncaught exception: 'Error' with message 'Call to undefined method App\Config::getDbHost()'
+Stack trace: #0 C:\wamp64\www\videgreniercesisim\App\Models\Articles.php(39): Core\Model::getDB()
+#1 C:\wamp64\www\videgreniercesisim\App\Controllers\Api.php(27): App\Models\Articles::getAll('')
+#2 [internal function]: App\Controllers\Api->productsallAction()
+#3 C:\wamp64\www\videgreniercesisim\Core\Controller.php(48): call_user_func_array(Array, Array)
+#4 C:\wamp64\www\videgreniercesisim\Core\Router.php(126): Core\Controller->__call('productsall', Array)
+#5 C:\wamp64\www\videgreniercesisim\public\index.php(74): Core\Router->dispatch('api/products')
+#6 {main}
+Thrown in 'C:\wamp64\www\videgreniercesisim\Core\Model.php' on line 26
+[22-Jun-2023 11:30:00 UTC] Uncaught exception: 'Error' with message 'Call to undefined method App\Config::getDbHost()'
+Stack trace: #0 C:\wamp64\www\videgreniercesisim\App\Models\Articles.php(39): Core\Model::getDB()
+#1 C:\wamp64\www\videgreniercesisim\App\Controllers\Api.php(27): App\Models\Articles::getAll('')
+#2 [internal function]: App\Controllers\Api->productsallAction()
+#3 C:\wamp64\www\videgreniercesisim\Core\Controller.php(48): call_user_func_array(Array, Array)
+#4 C:\wamp64\www\videgreniercesisim\Core\Router.php(126): Core\Controller->__call('productsall', Array)
+#5 C:\wamp64\www\videgreniercesisim\public\index.php(74): Core\Router->dispatch('api/products')
+#6 {main}
+Thrown in 'C:\wamp64\www\videgreniercesisim\Core\Model.php' on line 26
+[22-Jun-2023 11:30:00 UTC] Uncaught exception: 'Error' with message 'Call to undefined method App\Config::getDbHost()'
+Stack trace: #0 C:\wamp64\www\videgreniercesisim\App\Models\Articles.php(39): Core\Model::getDB()
+#1 C:\wamp64\www\videgreniercesisim\App\Controllers\Api.php(27): App\Models\Articles::getAll('')
+#2 [internal function]: App\Controllers\Api->productsallAction()
+#3 C:\wamp64\www\videgreniercesisim\Core\Controller.php(48): call_user_func_array(Array, Array)
+#4 C:\wamp64\www\videgreniercesisim\Core\Router.php(126): Core\Controller->__call('productsall', Array)
+#5 C:\wamp64\www\videgreniercesisim\public\index.php(74): Core\Router->dispatch('api/products')
+#6 {main}
+Thrown in 'C:\wamp64\www\videgreniercesisim\Core\Model.php' on line 26
+[22-Jun-2023 11:31:03 UTC] Uncaught exception: 'Error' with message 'Call to undefined method App\Config::getDbHost()'
+Stack trace: #0 C:\wamp64\www\videgreniercesisim\App\Models\Articles.php(39): Core\Model::getDB()
+#1 C:\wamp64\www\videgreniercesisim\App\Controllers\Api.php(27): App\Models\Articles::getAll('')
+#2 [internal function]: App\Controllers\Api->productsallAction()
+#3 C:\wamp64\www\videgreniercesisim\Core\Controller.php(48): call_user_func_array(Array, Array)
+#4 C:\wamp64\www\videgreniercesisim\Core\Router.php(126): Core\Controller->__call('productsall', Array)
+#5 C:\wamp64\www\videgreniercesisim\public\index.php(74): Core\Router->dispatch('api/products')
+#6 {main}
+Thrown in 'C:\wamp64\www\videgreniercesisim\Core\Model.php' on line 26
+[22-Jun-2023 11:31:26 UTC] Uncaught exception: 'Error' with message 'Call to undefined method App\Config::getDbHost()'
+Stack trace: #0 C:\wamp64\www\videgreniercesisim\App\Models\Articles.php(39): Core\Model::getDB()
+#1 C:\wamp64\www\videgreniercesisim\App\Controllers\Api.php(27): App\Models\Articles::getAll('')
+#2 [internal function]: App\Controllers\Api->productsallAction()
+#3 C:\wamp64\www\videgreniercesisim\Core\Controller.php(48): call_user_func_array(Array, Array)
+#4 C:\wamp64\www\videgreniercesisim\Core\Router.php(126): Core\Controller->__call('productsall', Array)
+#5 C:\wamp64\www\videgreniercesisim\public\index.php(74): Core\Router->dispatch('api/products')
+#6 {main}
+Thrown in 'C:\wamp64\www\videgreniercesisim\Core\Model.php' on line 26
+[22-Jun-2023 11:31:44 UTC] Uncaught exception: 'Error' with message 'Call to undefined method App\Config::getDbHost()'
+Stack trace: #0 C:\wamp64\www\videgreniercesisim\App\Models\Cities.php(53): Core\Model::getDB()
+#1 C:\wamp64\www\videgreniercesisim\App\Controllers\Api.php(64): App\Models\Cities::getOne('1')
+#2 [internal function]: App\Controllers\Api->CityAction()
+#3 C:\wamp64\www\videgreniercesisim\Core\Controller.php(48): call_user_func_array(Array, Array)
+#4 C:\wamp64\www\videgreniercesisim\Core\Router.php(126): Core\Controller->__call('city', Array)
+#5 C:\wamp64\www\videgreniercesisim\public\index.php(74): Core\Router->dispatch('api/city/1')
+#6 {main}
+Thrown in 'C:\wamp64\www\videgreniercesisim\Core\Model.php' on line 26
