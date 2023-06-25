@@ -1,0 +1,40 @@
+version: "3"
+
+services:
+  site_prod:
+    container_name: grenier-prod
+    build:
+      context: ../../.
+      args:
+        - environment=PROD
+      dockerfile: ./install/prod/Dockerfile_prod
+    image: my-vide-grenier-prod
+    environment:
+      - "APACHE_LOG_DIR:/var/www/html/public"
+      - "ENVIRONMENT=PROD"
+    ports:
+      - 8097:80
+    depends_on:
+      - mysql_prod
+    networks:
+      - backend
+
+  mysql_prod:
+    container_name: mysql-prod
+    image: mysql:latest
+    command: --default-authentication-plugin=mysql_native_password
+    ports:
+      - 3308:3306
+    environment:
+      - MYSQL_ROOT_PASSWORD=root
+      - MYSQL_DATABASE=videgrenierenligne_prod
+      - MYSQL_USER=webapplication
+      - MYSQL_PASSWORD=653rag9T
+    volumes:
+      - ../.././sql:/docker-entrypoint-initdb.d
+    networks:
+      - backend
+
+networks:
+  backend:
+    driver: bridge

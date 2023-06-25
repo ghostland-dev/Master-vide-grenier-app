@@ -1,0 +1,45 @@
+#Image de base pour PHP
+FROM php:8.2-apache
+
+#Installation des dépendances nécessaires
+RUN apt-get update && apt-get install -y \
+    libzip-dev \
+    zip \
+    unzip \
+    && docker-php-ext-install zip pdo_mysql mysqli
+
+#Activation des modules Apache
+RUN chown -R www-data:www-data /var/www/html && a2enmod rewrite
+
+#Installation de Git
+RUN apt-get install -y git
+
+#Copie du code source dans le conteneur
+COPY apache.conf /etc/apache2/sites-available/000-default.conf
+
+# Change release/name
+RUN git init .
+RUN git config --global --add safe.directory '*'
+RUN git remote add origin https://gitlab.com/MDANDEL/videgreniercesisim.git
+RUN git pull origin preprod
+RUN git checkout preprod --force
+
+#Définition du répertoire de travail
+WORKDIR /var/www/html
+
+#Installation des dépendances PHP via Composer
+RUN curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer
+RUN composer install
+
+#Import du dump SQL
+COPY sql/import.sql /docker-entrypoint-initdb.d/
+
+# Update environment variable in .env file
+ARG environment
+COPY .env /var/www/html/.env
+RUN sed -i "s/ENV_PROD=.*/ENV_PROD='$environment'/" /var/www/html/.env
+
+#Commande pour démarrer le serveur Apache
+CMD ["apache2-foreground"]
+
+RUN composer install

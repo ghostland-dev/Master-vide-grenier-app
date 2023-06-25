@@ -1,0 +1,40 @@
+version: "3"
+
+services:
+  site_preprod:
+    container_name: grenier-preprod
+    build:
+      context: ../../.
+      args:
+        - environment=PREPROD
+      dockerfile: ./install/preprod/Dockerfile_preprod
+    image: my-vide-grenier-preprod
+    environment:
+      - "APACHE_LOG_DIR:/var/www/html/public"
+      - "ENVIRONMENT=PREPROD"
+    ports:
+      - 8096:80
+    depends_on:
+      - mysql_preprod
+    networks:
+      - backend
+
+  mysql_preprod:
+    container_name: mysql-preprod
+    image: mysql:latest
+    command: --default-authentication-plugin=mysql_native_password
+    ports:
+      - 3307:3306
+    environment:
+      - MYSQL_ROOT_PASSWORD=root
+      - MYSQL_DATABASE=videgrenierenligne_preprod
+      - MYSQL_USER=webapplication
+      - MYSQL_PASSWORD=653rag9T
+    volumes:
+      - ../.././sql:/docker-entrypoint-initdb.d
+    networks:
+      - backend
+
+networks:
+  backend:
+    driver: bridge
