@@ -87,8 +87,8 @@ class Home extends \Core\Controller
             $mail->isSMTP();
             $mail->Host = 'smtp.mailtrap.io';
             $mail->SMTPAuth = true;
-            $mail->Username = '***REMOVED***';
-            $mail->Password = '***REMOVED***';
+            $mail->Username = 'test_user';
+            $mail->Password = 'test_password';
             $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
             $mail->Port = 2525;
 
